@@ -76,31 +76,61 @@ var questionsPrompt = () => {
             name: "license",
             message: "If your project is licesened, please select the appropriate option (Optional)",
             choices: ["Apache", "GNU", "MIT", "ISC", "Other"]
+        },
+        {
+            type: "input",
+            name: "licenseLink",
+            message: "If liscensed, please enter your license link here. (Optional)"
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "Please enter your Github username (Required)",
+            validate: githubInput => {
+                if (githubInput) {
+                    return true;
+                } else {
+                    console.log("You must enter your Github username");
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "githubLink",
+            message: "If you'd like, enter the link to your Github profile. (Optional)"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email address. (Required)",
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log("You must enter your email address!")
+                }
+            }
         }
     ])
 };
 
-questionsPrompt();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+questionsPrompt()
+    .then(userAnswers => {
+        return generateMarkdown(userAnswers)
+    })
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }  //starter code
+function writeToFile(fileName, data) {   //starter code
+    fs.writeToFile(fileName, data, error)
+    if (error) {
+        return console.log(error)
+    } else {
+        console.log("README.md has been generated!");
+    }
+};
+
 
 // TODO: Create a function to initialize app
 function init() { }                      //starter code
