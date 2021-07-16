@@ -2,7 +2,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-// const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown")
 
 //create variable where the file will be written to and copied. Must have relative file path name
 const { writeFile, copyFile } = require('./utils/generateMarkdown');
@@ -70,6 +70,12 @@ var questionsPrompt = () => {
             type: "input",
             name: "test",
             message: "What tests, if any, have you written for your application? (Optional)"
+        },
+        {
+            type: "checkbox",
+            name: "license",
+            message: "If your project is licesened, please select the appropriate option (Optional)",
+            choices: ["Apache", "GNU", "MIT", "ISC", "Other"]
         }
     ])
 };
