@@ -27,31 +27,36 @@ function renderLicenseSection(license) {                            //starter co
 function generateMarkdown(data) {
     return `
     #Project Title
-    # ${data.title}  
+    ## ${data.title}  
     
     ## Description
     #### ${data.description}
+    
     ## Table of Contents
     #### ${data.confirmTable}
+    
     ## Installation 
     #### ${data.installation}
+    
     ## Usage
     #### ${data.usage} 
+    
     ## Contribution 
     #### ${data.contributing}
+    
     ## Tests
     #### ${data.test}
+    
     ## License 
-    #### ${data.license}
+    ####${renderLicenseSection(data.license)} 
+    ####${renderLicenseLink(data.licenseLink)} 
+    
     ## Questions
     #### ${data.github}
     #### ${data.githubLink}
     #### ${data.email}
 
-    license
-    ${renderLicenseSection(data.license)}  
-    licenseLink 
-    ${renderLicenseLink(data.licenseLink)}  
+     
 `;   /// move renderLicenseLinks up ??? 
 
 }
