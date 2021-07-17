@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown")
 
 //create variable where the file will be written to and copied. Must have relative file path name
-const { writeFile, copyFile } = require('./utils/generateMarkdown');
+// const { writeFile, copyFile } = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input (starter code)
@@ -115,25 +115,32 @@ var questionsPrompt = () => {
     ])
 };
 
-questionsPrompt()
-    .then(userAnswers => {
-        return generateMarkdown(userAnswers)
-    })
+
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {   //starter code
-    fs.writeToFile(fileName, data, error)
-    if (error) {
-        return console.log(error)
-    } else {
-        console.log("README.md has been generated!");
-    }
+    fs.writeFile(fileName, data, error => {
+        if (error) {
+            return console.log(error);
+        } else {
+            console.log("README.md has been generated!");
+        }
+    })
+
 };
 
 
 // TODO: Create a function to initialize app
-function init() { }                      //starter code
+function init() {
+    questionsPrompt()
+        .then(userAnswers => {
+
+            let markdown = generateMarkdown(userAnswers);
+            console.log(markdown);
+            writeToFile("./ReadMe.md", markdown);
+        })
+}                      //starter code
 
 // Function call to initialize app
 init();                                //starter code

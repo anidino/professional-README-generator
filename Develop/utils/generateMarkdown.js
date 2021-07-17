@@ -6,8 +6,8 @@ function renderLicenseBadge(license) { }                         //starter code
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {                              //starter code
-    if (userAnswers.licenseLink) {
+function renderLicenseLink(licenseLink) {                              //starter code
+    if (licenseLink) {
         return `${licenseLink}`
     } else {
         return '';
@@ -17,7 +17,7 @@ function renderLicenseLink(license) {                              //starter cod
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {                            //starter code
-    if (userAnswers.license) {
+    if (license) {
         return `${license}`
     } else {
         return "";
@@ -25,28 +25,35 @@ function renderLicenseSection(license) {                            //starter co
 }
 // TODO: Create a function to generate markdown for README     //starter code below
 function generateMarkdown(data) {
-    return `#Project Title
-    # ${data.title} # 
+    return `
+    #Project Title
+    # ${data.title}  
     
     ## Description
-    ## ${userAnswers.description}
+    #### ${data.description}
     ## Table of Contents
-    ## ${userAnswers.confirmTable}
+    #### ${data.confirmTable}
     ## Installation 
-    ## ${userAnswers.installation}
+    #### ${data.installation}
     ## Usage
-    ## ${userAnswers.usage} 
+    #### ${data.usage} 
     ## Contribution 
-    ## ${userAnswers.contributing}
+    #### ${data.contributing}
     ## Tests
-    ## ${userAnswers.test}
+    #### ${data.test}
     ## License 
-    ## ${userAnswers.license}
+    #### ${data.license}
     ## Questions
-    ### ${userAnswers.github}
-    ### ${userAnswers.githubLink}
-    ### ${userAnswers.email}
-`;
+    #### ${data.github}
+    #### ${data.githubLink}
+    #### ${data.email}
+
+    license
+    ${renderLicenseSection(data.license)}  
+    licenseLink 
+    ${renderLicenseLink(data.licenseLink)}  
+`;   /// move renderLicenseLinks up ??? 
+
 }
 
 module.exports = generateMarkdown;
