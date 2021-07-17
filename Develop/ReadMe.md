@@ -1,41 +1,41 @@
 
-    #Project Title
-    ## a  
+# Project Title
+## Professional README Generator  
     
     
-    ## Table of Contents
-    - [Description](#description)
-    -[Installation](#installation)
-    - [Usage](#usage)
-    - [contributing](#contributing)
-    - [Tests](#test)
-    - [License](#license)
-    - [Questions](#email)
+## Table of Contents
+- [Description](#description)
+-[Installation](#installation)
+- [Usage](#usage)
+- [contributing](#contributing)
+- [Tests](#test)
+- [License](#license)
+- [Questions](#email)
     
     
-    ## Description
-    #### a
+## Description
+#### A simple README.md generator using node.js and inquirer
     
  
-    ## Installation 
-    #### a
+## Installation 
+#### npm init and install inquirer
     
-    ## Usage
-    #### a 
+## Usage
+#### Once you have downloaded the files in this repository to your local drive, navigate to the directory in which the files can be found. Once there in your terminal, type node index then answer the question prompts  
     
-    ## Contribution 
-    #### a
+## Contribution 
+#### n/a
     
-    ## Tests
-    #### a
+## Tests
+#### This was tested in my terminal
     
-    ## License 
-    ####Apache,GNU,MIT,ISC,Other 
-    #### 
+## License 
+#### Other
+#### N/A 
     
-    ## Questions
-    #### a
-    #### a
-    #### a
+## Questions
+#### anidino
+#### github.com/anidino
+#### anicook13@gmail.com
 
      
