@@ -29,12 +29,21 @@ function generateMarkdown(data) {
     #Project Title
     ## ${data.name}  
     
+    
+    ## Table of Contents
+    - [Description](#description)
+    -[Installation](#installation)
+    - [Usage](#usage)
+    - [contributing](#contributing)
+    - [Tests](#test)
+    - [License](#license)
+    - [Questions](#email)
+    
+    
     ## Description
     #### ${data.description}
     
-    ## Table of Contents
-    #### ${data.confirmTable}
-    
+ 
     ## Installation 
     #### ${data.installation}
     

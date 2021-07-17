@@ -38,9 +38,9 @@ var questionsPrompt = () => {
             }
         },
         {
-            type: "input",
+            type: "confirm",
             name: "confirmTable",
-            message: "If you would like to have a Table of Contents (for longer README files), please enter it here."
+            message: "Type Y or Yes to have your Table of Contents generated. (Required) "
         },
         {
             type: "input",
