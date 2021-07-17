@@ -13,4 +13,4 @@
 ###### This was tested in my terminal 
 
 ## Link to video demonstrating how user can invoke application from command line
-https://drive.google.com/file/d/1pwsdwPZV7WJ6FkGarF-5mm-iujDNBjDk/view
+https://drive.google.com/file/d/1TNPUM8QvewR2FyUrrXBAoCYhnR9gUaOO/view
