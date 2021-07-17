@@ -37,7 +37,7 @@ function generateMarkdown(data) {
     - [contributing](#contributing)
     - [Tests](#test)
     - [License](#license)
-    - [Questions](#email)
+    - [Questions](#questions)
     
     
     ## Description
@@ -67,7 +67,7 @@ function generateMarkdown(data) {
     #### [Email](${data.email})
 
      
-`;   /// move renderLicenseLinks up ??? 
+`;
 
 }
 
