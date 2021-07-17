@@ -5,7 +5,7 @@
     
 ## Table of Contents
 - [Description](#description)
--[Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [contributing](#contributing)
 - [Tests](#test)
