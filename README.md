@@ -18,6 +18,9 @@ https://drive.google.com/file/d/1TNPUM8QvewR2FyUrrXBAoCYhnR9gUaOO/view
 ## Short gif that also demonstrates functionality:
 ![Untitled_ Jul 17, 2021 12_36 PM](https://user-images.githubusercontent.com/84213096/126044043-2bd7fc89-3831-47e8-bb7d-06fad0661c68.gif)
 
+## Contributors
+###### Ani Elaina Carr 2021
+
 
 
 
