@@ -32,7 +32,7 @@ function generateMarkdown(data) {
     
     ## Table of Contents
     - [Description](#description)
-    -[Installation](#installation)
+    - [Installation](#installation)
     - [Usage](#usage)
     - [contributing](#contributing)
     - [Tests](#test)
@@ -57,13 +57,14 @@ function generateMarkdown(data) {
     #### ${data.test}
     
     ## License 
-    ####${renderLicenseSection(data.license)} 
-    ####${renderLicenseLink(data.licenseLink)} 
+    #### ${renderLicenseSection(data.license)} 
+    #### ${renderLicenseLink(data.licenseLink)} 
     
     ## Questions
-    #### ${data.github}
-    #### ${data.githubLink}
-    #### ${data.email}
+    #### If you have additional questions or would like to get in touch with me, reach out using a method below
+    #### Github UserName - @${data.github}
+    #### [Github Profile](${data.githubLink})
+    #### [Email](${data.email})
 
      
 `;   /// move renderLicenseLinks up ??? 

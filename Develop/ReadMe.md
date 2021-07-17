@@ -10,32 +10,33 @@
 - [contributing](#contributing)
 - [Tests](#test)
 - [License](#license)
-- [Questions](#Questions)
+- [Questions](#questions)
     
     
-## Description
-#### A simple README.md generator using node.js and inquirer
+    ## Description
+    #### This is a simple README Generator created with node.js and Inquirer
     
  
-## Installation 
-#### npm init and install inquirer
+    ## Installation 
+    #### I ran npm init in the Develop subdirectory of this project and also installed Inquirer.
     
-## Usage
-#### Once you have downloaded the files in this repository to your local drive, navigate to the directory in which the files can be found. Once there in your terminal, type node index then answer the question prompts  
+    ## Usage
+    #### Once you have downloaded the files from this repository to your local drive, navigate to the directory in which the files are located using the terminal. Once in the correct directory, type node index and then answer the question prompts. Your README.md file will be generated based on your responses. The ReadMe.md file is located in the utils subdirectory. 
     
-## Contribution 
-#### n/a
+    ## Contribution 
+    #### N/A
     
-## Tests
-#### This was tested in my terminal
+    ## Tests
+    #### This application was tested in the terminal. 
     
-## License 
-#### Other
-#### N/A 
+    ## License 
+    ####  
+    #### N/A 
     
-## Questions
-#### anidino
-#### github.com/anidino
-#### anicook13@gmail.com
+    ## Questions
+    #### If you have additional questions or would like to get in touch with me, reach out using a method below
+    #### Github UserName - @anidino
+    #### [Github Profile](github.com/anidino)
+    #### [Email](anicook13@gmail.com)
 
      
