@@ -1,4 +1,4 @@
-# professional-README-generator
+# Professional-README-Generator
 
 ## Description 
 ###### A simple README.md generator using node.js and Inquirer 
