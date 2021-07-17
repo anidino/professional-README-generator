@@ -38,10 +38,9 @@ var questionsPrompt = () => {
             }
         },
         {
-            type: "confirm",
+            type: "input",
             name: "confirmTable",
-            message: "Would you like to have a table of contents (for longer README files)?",
-            default: false  // do i put the if/else statement after this or can it be at the end? 
+            message: "If you would like to have a Table of Contents (for longer README files), please enter it here."
         },
         {
             type: "input",
@@ -124,7 +123,7 @@ function writeToFile(fileName, data) {   //starter code
         if (error) {
             return console.log(error);
         } else {
-            console.log("README.md has been generated!");
+            console.log("Your README has been generated! Check out 'ReadMe.md' to see!");
         }
     })
 

@@ -27,7 +27,7 @@ function renderLicenseSection(license) {                            //starter co
 function generateMarkdown(data) {
     return `
     #Project Title
-    ## ${data.title}  
+    ## ${data.name}  
     
     ## Description
     #### ${data.description}

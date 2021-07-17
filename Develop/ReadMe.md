@@ -1,32 +1,40 @@
 
-    #Project Title
-    ## undefined  
+# Project Title
+## README generator  
     
-    ## Description
-    #### a simple README generator built with node.js and inquirer
+
+## Description
+#### a simple README generator using node.js and inquirer
     
-    ## Table of Contents
-    #### false
+
+## Table of Contents
+#### n/a
     
-    ## Installation 
-    #### run npm init in the directory of the project and install inquirer
+
+## Installation 
+#### run npm init and install inquirer
     
-    ## Usage
-    #### Once you have the files on your local drive, navigate to the directory they are in using your terminal. Then type node index and answer the question prompts 
+
+## Usage
+#### download files and navigate to directory in terminal. run node index and answer questions 
     
-    ## Contribution 
-    #### N/A
+
+## Contribution 
+#### no
     
-    ## Tests
-    #### tested in git bash/terminal
+
+## Tests
+#### tested in terminal
     
-    ## License 
-    #### 
-    ####yourlicenselink@yourlinkhere.com 
+
+## License 
+#### Apache 
+#### linkher@linkhere 
     
-    ## Questions
-    #### anidino
-    #### https://github.com/anidino
-    #### anicook13@gmail.com
+
+## Questions
+#### anidino
+#### https://github.com/anidino
+#### anicook13@gmail.com
 
      
