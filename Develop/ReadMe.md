@@ -7,36 +7,37 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [contributing](#contributing)
+- [Contributing](#contributing)
 - [Tests](#test)
 - [License](#license)
 - [Questions](#questions)
     
     
-    ## Description
-    #### This is a simple README Generator created with node.js and Inquirer
+## Description
+#### a simple readme generator using node.js and inquirer
     
  
-    ## Installation 
-    #### I ran npm init in the Develop subdirectory of this project and also installed Inquirer.
+## Installation 
+#### npm init and install inquirer in terminal
     
-    ## Usage
-    #### Once you have downloaded the files from this repository to your local drive, navigate to the directory in which the files are located using the terminal. Once in the correct directory, type node index and then answer the question prompts. Your README.md file will be generated based on your responses. The ReadMe.md file is located in the utils subdirectory. 
+## Usage
+#### download files and navigate to directory in which those files are located. run node index in your terminal then answer the question prompts 
     
-    ## Contribution 
-    #### N/A
+## Contribution 
+#### N/A
     
-    ## Tests
-    #### This application was tested in the terminal. 
+## Tests
+#### tested in terminal
     
-    ## License 
-    ####  
-    #### N/A 
+## License 
+#### [![License](https://img.shields.io/badge/license-Apache-blue)](http://www.apache.org/licenses/LICENSE-2.0)
+#### Apache 
+#### linkhere@linkhere 
     
-    ## Questions
-    #### If you have additional questions or would like to get in touch with me, reach out using a method below
-    #### Github UserName - @anidino
-    #### [Github Profile](github.com/anidino)
-    #### [Email](anicook13@gmail.com)
+## Questions
+#### If you have additional questions or would like to get in touch with me, reach out using a method below
+#### Github UserName - @anidino
+#### [Github Profile](github.com/anidino)
+#### [Email](anicook13@gmail.com)
 
      

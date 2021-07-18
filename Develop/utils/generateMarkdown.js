@@ -2,8 +2,17 @@
 const fs = require("fs");
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }                         //starter code
-
+function renderLicenseBadge(license) {                          //starter code
+    if (license == "MIT") {
+        return `[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://spdx.org/licenses/MIT.html)`
+    } else if (license == "GNU") {
+        return `[![License](https://img.shields.io/badge/license-GPL-blue)](https://www.gnu.org/licenses/gpl-3.0-standalone.html)`
+    } else if (license == "Apache") {
+        return `[![License](https://img.shields.io/badge/license-Apache-blue)](http://www.apache.org/licenses/LICENSE-2.0)`
+    } else if (license == "ISC") {
+        return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+    }
+}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(licenseLink) {                              //starter code
@@ -57,6 +66,7 @@ function generateMarkdown(data) {
     #### ${data.test}
     
     ## License 
+    #### ${renderLicenseBadge(data.license)}
     #### ${renderLicenseSection(data.license)} 
     #### ${renderLicenseLink(data.licenseLink)} 
     
